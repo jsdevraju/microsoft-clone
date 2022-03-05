@@ -1,0 +1,250 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+/* Variable */
+:root{
+    --primary-color:#000;
+    --secondary-color:#0067b8;
+    --primary-font:'Roboto', sans-serif;
+}
+
+/* Reset Css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+
+.container{
+    max-width: 1620px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,a,p,span,button{
+    font-family: var(--primary-font);
+}
+
+/* Overwrite Css */
+
+/* Default Styles Here */
+
+.app_btn, .transparment {
+    border: none;
+    outline: none;
+    font-weight: 400;
+    padding: 0.7em 2em;
+    background-color: var(--primary-color);
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.app_btn:hover{
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.transparment{
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+/* Navbar Styles */
+img.logo {
+    width: 120px;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link {
+    font-size: 0.8em;
+    font-weight: 400;
+    padding: 1em !important;
+    display: inline-block;
+}
+
+.nav-link::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 14px;
+    width: 0px;
+    height: 2px;
+    background-color: var(--secondary-color);
+}
+
+.nav-link.active::before{
+    width: 40px;
+}
+.nav-link:hover::before{
+    width: 40px;
+}
+
+
+.form-control {
+    width: 100%;
+    height: 40px;
+    font-size: 0.8em;
+}
+
+.d-flex {
+    align-items: center;
+}
+
+select {
+    border: none;
+    outline: none;
+    font-size: 0.8em;
+}
+
+/* Banner Home Start Here */
+.banner .row{
+    background-color: #f4f4f4;
+}
+
+.banner .container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.home_content{
+    padding-left: 110px;
+    max-width: 550px;
+}
+
+.home_content h1 {
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+/* Service */
+.service{
+    padding: 3em 0px;
+}
+.service .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service_container {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+.service_card {
+    width: 180px;
+    text-align: center;
+}
+
+.service_card img {
+    width: 40px;
+}
+
+.service_card h3 {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    font-weight: 500;
+}
+/* Games Box Styles Here */
+
+/* Game Pass Section Start Here */
+.game_pass{
+    padding: 3rem 0px;
+}
+.game_pass .row{
+    background-color: #f4f4f4;
+}
+.game_content{
+    padding-left: 110px;
+    max-width: 550px;
+}
+.game_pass .container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+/* Game Pass Section Ends Here */
+
+/* Covid */
+.covid .container {
+    background: #f4f4f4;
+    padding: 2.5em 0px;
+    height: 23vh;
+}
+
+/* Woman History */
+.wonan_history .row{
+    background-color: #3c2e59;
+}
+.wonan_history .container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.woman{
+    padding-left: 110px;
+    max-width: 550px;
+    color: #fff;
+}
+
+/* Social  */
+
+.follow_main{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.social {
+    width: 40px;
+    height: 40px;
+    background: #425daa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.social a {
+    color: #fff;
+}
+
+/* Footer */
+.footer{
+    background-color: #f2f2f2;
+    padding: 3em 0px;
+}
+
+.footer ul{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.footer_item h5{
+    color: #616161;
+    font-size: 1em !important;
+}
+
+.footer .nav-link{
+    padding: 1em 0px !important;
+    color: #616161;
+    margin-top: 0px !important;
+}

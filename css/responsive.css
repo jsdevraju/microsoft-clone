@@ -1,0 +1,47 @@
+/* Laptop  */
+
+/* Tablet */
+@media (max-width:768px){
+    .service .container{
+        height: 35vh;
+    }
+    .game_img {
+        padding-right: 300px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width:520px){
+    .service_card {
+        width: 100%;
+        display: flex;
+        gap: 1.5em;
+    }
+
+    .service_card {
+        width: 100%;
+        display: flex;
+        gap: 1.5em;
+    }
+    
+    section.games {
+        padding: 3em 0px;
+    }
+    
+    .home_content {
+        padding-left: 0px;
+    }
+    
+    .game_content {
+        padding-left: 0px;
+    }
+
+    #none {
+        display: none;
+    }
+    
+    .woman {
+        padding-left: 0px;
+    }
+}
